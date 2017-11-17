@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renderiza corretamente 1`] = `
+exports[`App renderiza corretamente 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -17,22 +17,72 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
-        Meu Ovo
+      "children": Array [
+        <h2>
+          Meus Presentes
 </h2>,
+        <div
+          className="gift-list"
+>
+          
+</div>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-add"
+          disabled={false}
+          onClick={[Function]}
+>
+          Adicionar
+</Button>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Meu Ovo",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Meus Presentes",
+        },
+        "ref": null,
+        "rendered": "Meus Presentes",
+        "type": "h2",
       },
-      "ref": null,
-      "rendered": "Meu Ovo",
-      "type": "h2",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "gift-list",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Adicionar",
+          "className": "btn-add",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Adicionar",
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -41,22 +91,72 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h2>
-          Meu Ovo
+        "children": Array [
+          <h2>
+            Meus Presentes
 </h2>,
+          <div
+            className="gift-list"
+>
+            
+</div>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-add"
+            disabled={false}
+            onClick={[Function]}
+>
+            Adicionar
+</Button>,
+        ],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Meu Ovo",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Meus Presentes",
+          },
+          "ref": null,
+          "rendered": "Meus Presentes",
+          "type": "h2",
         },
-        "ref": null,
-        "rendered": "Meu Ovo",
-        "type": "h2",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "gift-list",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Adicionar",
+            "className": "btn-add",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Adicionar",
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
